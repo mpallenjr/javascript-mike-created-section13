@@ -71,9 +71,20 @@ console.log(typeof null);
 */
 
 
+//reassigning a variable (mutating the age value)
+let age = 30;
+age = 31;
 
+const birthYear = 1991;
+// birthYear = 1990; 
 
+// const job;
 
+var job = 'programmer';
+job = 'teacher';
+
+lastName = 'Allen'
+console.log(lastName)
 
 
 

@@ -39,3 +39,23 @@ let is used to declare a variable, do not use let to ressaign a variable (dynami
 //////////
 
 Section 13 - let, const, and var
+
+Reassigning a variable is also know as 'mutating' the value.  You may here mutate when changing the value of a variable. 
+
+You typically want to use let when you intend to mutate the value or if we want to declare an empty variable. 
+
+const creates a variable that cannont be reassigned later.  These are also called immutable.
+
+You should be using const by default and only using let if you're absolutely sure that the variable will be mutated at some point. It's best practice to have the fewest changing variable possible.  So best practice is to use const as much as possible. 
+
+var is another way of declaring variables, but should be completely ignored.  It's legacy code, an old way to declare variables pre ES6.  
+
+var and let appear the same but underneath they are very different. 
+
+It is not manditory to declare variables, BUT ALWAYS DO IT ANYWAY!!!
+
+//////////
+
+
+
+
