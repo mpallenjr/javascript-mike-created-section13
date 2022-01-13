@@ -1,18 +1,18 @@
-/*
+
 
 // LECTURE: Values and Variables
 // 1. Declare variables called 'country', 'continent' and 'population' and
 // assign their values according to your own country (population in millions)
 // 2. Log their values to the console
 
-let country = 'United States of America'
-let continent = 'North America'
-let population = "330,000,000"
+const country = 'United States of America';
+const continent = 'North America';
+let population = '330,000,000';
 
-console.log(country, continent, population)
-console.log(country)
-console.log(continent)
-console.log(population)
+console.log(country, continent, population);
+console.log(country);
+console.log(continent);
+console.log(population);
 
 
 
@@ -24,12 +24,22 @@ console.log(population)
 // 2. Log the types of 'isIsland', 'population', 'country' and 'language'
 // to the console
 
-let isIsland = false;
-let language;
+const isIsland = false;
+const language = 'english';
 
-console.log(typeof isIsland)
-console.log(typeof language)
-console.log(typeof population)
-console.log(typeof country)
+console.log(typeof isIsland);
+console.log(typeof language);
+console.log(typeof population);
+console.log(typeof country);
 
-*/
+
+
+// LECTURE: let, const and var
+// 1. Set the value of 'language' to the language spoken where you live (some
+// countries have multiple languages, but just choose one)
+// 2. Think about which variables should be const variables (which values will never
+// change, and which might change?). Then, change these variables to const.
+// 3. Try to change one of the changed variables now, and observe what happens
+
+// language = 'english'; //[Uncaught SyntaxError: Missing initializer in const declaration]
+
